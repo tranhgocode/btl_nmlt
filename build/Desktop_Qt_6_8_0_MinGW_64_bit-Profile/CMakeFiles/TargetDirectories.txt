@@ -1,0 +1,9 @@
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/btl_nmlt.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/edit_cache.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/rebuild_cache.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/list_install_components.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/install.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/install/local.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/install/strip.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/btl_nmlt_autogen_timestamp_deps.dir
+C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Profile/CMakeFiles/btl_nmlt_autogen.dir

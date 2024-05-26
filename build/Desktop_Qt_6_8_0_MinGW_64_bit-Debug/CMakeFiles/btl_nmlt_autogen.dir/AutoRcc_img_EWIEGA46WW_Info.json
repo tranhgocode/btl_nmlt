@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/btl_nmlt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/GUI/btl_nmlt",
+	"CMAKE_SOURCE_DIR" : "C:/GUI/btl_nmlt",
+	"INCLUDE_DIR" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/btl_nmlt_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/GUI/btl_nmlt/img1",
+		"C:/GUI/btl_nmlt/img_btn.png",
+		"C:/GUI/btl_nmlt/Screenshot 2024-05-14 235710.png",
+		"C:/GUI/btl_nmlt/muon-chuyen-doi-so-cac-doanh-nghiep-can-tu-duy-moi-khong-chi-cong-nghe-moi-scaled.jpg",
+		"C:/GUI/btl_nmlt/img3",
+		"C:/GUI/btl_nmlt/img2",
+		"C:/GUI/btl_nmlt/icondienthoai.png"
+	],
+	"LOCK_FILE" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/btl_nmlt_autogen.dir/AutoRcc_img_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "img" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_img.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt_6_7/6.8.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/GUI/btl_nmlt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/btl_nmlt_autogen.dir/AutoRcc_img_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/GUI/btl_nmlt/img.qrc",
+	"VERBOSITY" : 0
+}

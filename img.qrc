@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>muon-chuyen-doi-so-cac-doanh-nghiep-can-tu-duy-moi-khong-chi-cong-nghe-moi-scaled.jpg</file>
+        <file>img1</file>
+        <file>img2</file>
+        <file>img3</file>
+        <file>icondienthoai.png</file>
+        <file>img_btn.png</file>
+        <file>Screenshot 2024-05-14 235710.png</file>
+    </qresource>
+</RCC>

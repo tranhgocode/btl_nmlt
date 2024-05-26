@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>electricity</class>
+ <widget class="QMainWindow" name="electricity">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>electricity</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbdanhsach">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>60</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Small</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>Danh sách khách hàng </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnhoadon">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>330</y>
+      <width>160</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton 
+{
+  border-style: solid;
+	border-width: 3px;
+	
+	border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(32, 0, 255, 255), stop:0.545455 rgba(179, 13, 235, 255), stop:1 rgba(68, 35, 193, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 20px ;
+   background-color: rgb(85, 85, 255);
+}
+
+QPushButton:enabled
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(85, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+  background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Xuất hóa đơn </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnremove">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>130</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>26</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton 
+{
+border-style: solid;
+	border-width: 3px;
+	
+	border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(32, 0, 255, 255), stop:0.545455 rgba(179, 13, 235, 255), stop:1 rgba(68, 35, 193, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 13px ;
+   background-color: rgb(85, 85, 255);
+}
+
+QPushButton:enabled
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(85, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+  background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnadd">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton 
+{
+  border-style: solid;
+	border-width: 3px;
+	
+	border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(32, 0, 255, 255), stop:0.545455 rgba(179, 13, 235, 255), stop:1 rgba(68, 35, 193, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 13px ;
+   background-color: rgb(85, 85, 255);
+}
+
+QPushButton:enabled
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(85, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+  background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btncheck">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>220</y>
+      <width>160</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton 
+{
+   border-style: solid;
+	border-width: 3px;
+	
+	border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(32, 0, 255, 255), stop:0.545455 rgba(179, 13, 235, 255), stop:1 rgba(68, 35, 193, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 20px ;
+   background-color: rgb(85, 85, 255);
+   
+}
+
+QPushButton:Horve
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:enabled
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(85, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+  background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Kiểm tra</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>20</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/res/img1);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-image: url(:/res/muon-chuyen-doi-so-cac-doanh-nghiep-can-tu-duy-moi-khong-chi-cong-nghe-moi-scaled.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnthoat">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>440</y>
+      <width>160</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton 
+{
+  border-style: solid;
+	border-width: 3px;
+	
+	border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(32, 0, 255, 255), stop:0.545455 rgba(179, 13, 235, 255), stop:1 rgba(68, 35, 193, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 20px ;
+   background-color: rgb(85, 85, 255);
+   
+}
+
+QPushButton:enabled
+{
+ background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(85, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+  background-color: rgb(85, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Thoát</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="bangkhachhang">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>441</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.698, fx:0.505455, fy:0.499682, stop:0 rgba(225, 166, 255, 255), stop:0.767045 rgba(94, 191, 230, 255));
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>441</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>*Note : ấn vào tên người dùng 2 lần để sửa thông tin khách hàng</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>lbdanhsach</zorder>
+   <zorder>btnhoadon</zorder>
+   <zorder>btnremove</zorder>
+   <zorder>btnadd</zorder>
+   <zorder>btncheck</zorder>
+   <zorder>logo</zorder>
+   <zorder>btnthoat</zorder>
+   <zorder>bangkhachhang</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

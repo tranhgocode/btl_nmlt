@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HoaDonDialog</class>
+ <widget class="QDialog" name="HoaDonDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>680</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>680</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="lbten">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>tên</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbngay">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>ngày</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbgio">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>310</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>giờ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsdt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>SDT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbdiachi">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>dia chi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbemail">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>210</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbngaysinh">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>180</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>ngày sinh</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtieude">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>BẢNG KÊ CHI TIẾT HÓA ĐƠN TIỀN ĐIỆN </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbthongtin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 170, 255)</string>
+   </property>
+   <property name="text">
+    <string>1,  Thông tin khách hàng </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtime">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 170, 255)</string>
+   </property>
+   <property name="text">
+    <string>2, Thời gian xuất hóa đơn</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongsotien">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 170, 255)</string>
+   </property>
+   <property name="text">
+    <string>3, Tổng số tiền thanh toán </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/res/img2);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtiendien">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>730</y>
+     <width>581</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>tiền điện </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbthue">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>780</y>
+     <width>581</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>tiền thuế</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtong">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>830</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);
+color: rgb(255, 0, 0);
+background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>tổng</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbthanhtien_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>670</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 170, 255)</string>
+   </property>
+   <property name="text">
+    <string>4, Thành Tiền </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbdongia">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>380</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>ĐƠN GIÁ ( VNĐ )</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsanluong">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>380</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>SẢN LƯỢNG ( kWh )</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbthanhtien_1">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>380</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>THÀNH TIỀN ( VNĐ )</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 1          1 806</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 2          1 866</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>520</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 3          2 167</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>640</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 6          3 151</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>600</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 5          3 050</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbbac4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>560</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>Bậc 4          2 729</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_1">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>440</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>52</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>480</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>52</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>520</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>103</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>560</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>103</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_5">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>600</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>103</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsotien_6">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>640</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>else</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_1">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>520</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>480</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_6">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>640</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t6</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_4">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>560</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtongbac_5">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>600</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>t5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbthongtin_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>130</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 170, 255)</string>
+   </property>
+   <property name="text">
+    <string>Thanh Toán Trực Tuyến </string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gvQrcode">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>180</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/res/img3);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsodien">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>240</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>sodien</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbtieude_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Tổng Công ty Điện lực TP Hà Nội</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gvHotline">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>16</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/res/icondienthoai.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>19001999</string>
+   </property>
+  </widget>
+  <zorder>lbdiachi</zorder>
+  <zorder>lbemail</zorder>
+  <zorder>lbthongtin</zorder>
+  <zorder>lbtime</zorder>
+  <zorder>lbtongsotien</zorder>
+  <zorder>lbsdt</zorder>
+  <zorder>lbgio</zorder>
+  <zorder>lbngay</zorder>
+  <zorder>lbten</zorder>
+  <zorder>lbngaysinh</zorder>
+  <zorder>lbtieude</zorder>
+  <zorder>logo</zorder>
+  <zorder>lbtiendien</zorder>
+  <zorder>lbthue</zorder>
+  <zorder>lbtong</zorder>
+  <zorder>lbthanhtien_2</zorder>
+  <zorder>lbdongia</zorder>
+  <zorder>lbthanhtien_1</zorder>
+  <zorder>lbbac1</zorder>
+  <zorder>lbbac2</zorder>
+  <zorder>lbbac3</zorder>
+  <zorder>lbbac6</zorder>
+  <zorder>lbbac5</zorder>
+  <zorder>lbbac4</zorder>
+  <zorder>lbsotien_1</zorder>
+  <zorder>lbsotien_2</zorder>
+  <zorder>lbsotien_3</zorder>
+  <zorder>lbsotien_4</zorder>
+  <zorder>lbsotien_5</zorder>
+  <zorder>lbsotien_6</zorder>
+  <zorder>lbsanluong</zorder>
+  <zorder>lbtongbac_1</zorder>
+  <zorder>lbtongbac_3</zorder>
+  <zorder>lbtongbac_2</zorder>
+  <zorder>lbtongbac_6</zorder>
+  <zorder>lbtongbac_4</zorder>
+  <zorder>lbtongbac_5</zorder>
+  <zorder>lbthongtin_2</zorder>
+  <zorder>gvQrcode</zorder>
+  <zorder>lbsodien</zorder>
+  <zorder>lbtieude_2</zorder>
+  <zorder>gvHotline</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

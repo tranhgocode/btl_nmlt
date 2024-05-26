@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CheckThongTinDialog</class>
+ <widget class="QDialog" name="CheckThongTinDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>427</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lbtieude">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>thông tin khách hàng </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbemail">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>411</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(255, 255,255)</string>
+   </property>
+   <property name="text">
+    <string>email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbsdt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(255, 255,255)</string>
+   </property>
+   <property name="text">
+    <string>SDT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbngaysinh">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(255, 255,255)</string>
+   </property>
+   <property name="text">
+    <string>ngày sinh</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbdiachi">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>411</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color :rgb(255, 255,255)</string>
+   </property>
+   <property name="text">
+    <string>dia chi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbten">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>471</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>tên</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>143</x>
+     <y>350</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton 
+{
+   border-style: solid;
+	border-width: 3px;
+	border-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.698, fx:0.505455, fy:0.499682, stop:0 rgba(225, 166, 255, 255), stop:0.767045 rgba(94, 191, 230, 255));
+
+   color: rgb(255, 255, 255);
+   border-radius: 20px ;
+   background-color: rgb(85, 170, 255);
+   
+}
+
+QPushButton:Horve
+{
+  background-color: rgb(85, 170, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:enabled
+{
+  background-color: rgb(85, 170, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed
+{
+   background-color: rgb(19, 121, 255);
+  color: rgb(0, 0, 0);
+}
+
+QPushButton:!pressed
+{
+   background-color: rgb(85, 170, 255);
+  color: rgb(255, 255, 255);
+}
+
+QPushButton:disabled
+{
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Xác Nhận</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>427</width>
+     <height>458</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Script</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/res/Screenshot 2024-05-14 235710.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>lbtieude</zorder>
+  <zorder>lbemail</zorder>
+  <zorder>lbsdt</zorder>
+  <zorder>lbngaysinh</zorder>
+  <zorder>lbdiachi</zorder>
+  <zorder>lbten</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
