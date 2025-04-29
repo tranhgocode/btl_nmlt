@@ -10,4 +10,4 @@ Môn học : INT1008 20
 Giảng Viên : TS. Trần Thanh Hải
 
 # báo cáo
-[📄 Xem hướng dẫn chi tiết (PDF)](A_Filebaocao)
+[📄 báo cáo bài tập lớn (PDF)](A_Filebaocao)
